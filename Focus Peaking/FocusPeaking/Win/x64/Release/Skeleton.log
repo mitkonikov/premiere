@@ -1,0 +1,28 @@
+﻿Build started 27-Jun-18 8:09:03 PM.
+     1>Project "C:\Users\PCC\Documents\Adobe After Effects CC 2017 Win SDK\Examples\Template\FocusPeaking\Win\Skeleton.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>CustomBuild:
+         Compiling the PiPL
+         Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         SkeletonPiPL.r
+         Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         SkeletonPiPL.rrc
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"x64\Release\SkeletonPiPL.res" SkeletonPiPL.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Adobe\Common\Plug-ins\7.0\MediaCore\FocusPeaking.aex" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"x64\Release\FocusPeaking.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Release\/FocusPeaking.lib" /MACHINE:X64 /DLL x64\Release\SkeletonPiPL.res
+         x64\Release\AEGP_SuiteHandler.obj
+         x64\Release\MissingSuiteError.obj
+         x64\Release\FocusPeaking.obj
+         x64\Release\FocusPeaking_Strings.obj
+            Creating library x64\Release\/FocusPeaking.lib and object x64\Release\/FocusPeaking.exp
+         Skeleton.vcxproj -> C:\Program Files\Adobe\Common\Plug-ins\7.0\MediaCore\FocusPeaking.aex
+     1>Done Building Project "C:\Users\PCC\Documents\Adobe After Effects CC 2017 Win SDK\Examples\Template\FocusPeaking\Win\Skeleton.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
